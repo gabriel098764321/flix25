@@ -1,0 +1,121 @@
+body {
+    color: lime;
+    background: black;
+    margin: 0px;
+    font-family: "Rubik Wet Paint", system-ui;
+}
+
+header {
+    border-bottom: solid 2px lime;
+    padding: 20px;
+    font-size: 32px;
+    color: lime;
+}
+
+.background {
+    background: url('bg-desktop.gif');
+}
+
+.chamada {
+    background: black;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px lime;
+}
+
+.video {
+    border: solid 2px lime;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+.typewriter {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    color: lime;
+    /* Define a cor do texto */
+}
+
+.cursor {
+    display: inline-block;
+    color: lime;
+    /* Define a mesma cor do texto */
+    animation: blink-caret 0.7s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-color: lime black;
+    scrollbar-width: thin;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid lime;
+}
+
+.categoria h2 {
+    color: lime;
+}
+
+.copyright {
+    font-size: 50px;
+    padding: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
